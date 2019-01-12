@@ -1,0 +1,9 @@
+.output_section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.code_output {
+    transition: height ease-in-out .3s;
+}

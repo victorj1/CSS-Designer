@@ -1,0 +1,34 @@
+.code_label {
+    color: rgb(57, 0, 172);
+    font-weight: bold;
+}
+
+.code_output {
+    width: 90% !important;
+    margin: 0 auto;
+    padding: 15px;
+    text-align:left;
+    border: 1px solid #455a64;
+    overflow: scroll;
+}
+
+.code_output p {
+    margin: 0;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.code_output .code_prop{
+    display: inline-block;
+}
+
+.code_label {
+    margin-left: 20px;
+}
+
+.code_prop {
+    font-weight: bold;
+    color: rgb(102,127,57);
+    white-space: nowrap;
+    cursor: pointer;
+}

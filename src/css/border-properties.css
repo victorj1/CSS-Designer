@@ -1,0 +1,34 @@
+.border-properties {
+    width: 130px;
+}
+
+.border-properties h3, .border-properties p {
+    width: 130px;
+    margin-right: 0
+}
+
+.border-prop-main {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.border_custom {
+    width: 250px;
+}
+
+.border-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.top-bottom-sides {
+    margin-left: 20px;
+}
+
+.border-radius-properties {
+    margin-right: 20px;
+}

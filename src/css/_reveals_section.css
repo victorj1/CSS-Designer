@@ -1,0 +1,9 @@
+.reveals_section {
+    width: 100%;
+    margin: 0;
+    padding: 1px;
+}
+
+.reveals_section button {
+    padding: 5px;
+}

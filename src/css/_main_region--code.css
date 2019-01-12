@@ -1,0 +1,37 @@
+.main_region--code {
+    width: 30%;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.container {
+    width: 100%;
+}
+
+.code {
+    border-left: 1px solid #ccc;
+    width: 99%;
+    margin: 0 auto;
+    height: 100%;
+    text-align: center;
+}
+
+.code:after, .main_region--code:after {
+    content: " ";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.code_buttons {
+    padding: 10px;
+    width: 90% !important;
+    margin: 0 auto;
+}
+
+.css_code_reveal {
+    position: absolute;
+    top: 0;
+    right: 0;
+}

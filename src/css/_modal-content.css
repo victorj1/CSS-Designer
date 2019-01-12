@@ -1,0 +1,64 @@
+.modal-content {
+    /*position: fixed;*/
+    bottom: 0;
+    width: 99%;
+    background-color: #fefefe;
+    /*animation-name: slideIn;*/
+    /*animation-duration: 0.4s;*/
+    display: none;
+
+}
+
+.modal-content, .modal-content-input {
+    /*transition: height ease-in-out 0.3s;*/
+}
+
+.close {
+    color: #fff;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+.modal-body {
+    padding: 2px 16px;
+}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: #fff;
+}
+
+@keyframes slideIn {
+    from {
+        bottom: -300px;
+        opacity: 0;
+    }
+    to {
+        bottom: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

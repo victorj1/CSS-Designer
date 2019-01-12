@@ -1,0 +1,25 @@
+.main_region--changing_text {
+    width: 70%;
+    margin-bottom: 10px;
+    /*border: 1px solid #ccc;*/
+}
+.changing_text {
+    flex: 1;
+    width: 99%;
+    margin: 0 auto;
+    height: 100%;
+    /*border: 1px solid #ccc;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*overflow: scroll;*/
+}
+
+
+#change-here {
+    display: inline-block;
+    /*overflow: hidden;*/
+    text-overflow: clip;
+    word-break: break-all;
+    white-space: normal;
+}

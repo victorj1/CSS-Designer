@@ -1,0 +1,20 @@
+.modal-content-input {
+    height: 150px;
+    width: 99%;
+    /*border: 1px solid #ccc;*/
+    display: none;
+}
+
+.text_para {
+    padding: 20px;
+}
+
+.label_for_text_to_change {
+    width: 100%;
+    display: inline-block;
+}
+
+.text_to_change {
+    width: 90%;
+    transition: height ease-in-out .3s;
+}

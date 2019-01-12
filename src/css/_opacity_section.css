@@ -1,0 +1,10 @@
+.opacity-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.opacity-section section {
+    padding: 10px;
+}

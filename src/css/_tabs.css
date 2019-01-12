@@ -1,0 +1,52 @@
+.tabs {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    transition: height ease-in-out 0.3s;
+}
+
+.div img {
+    height: 60px;
+}
+
+.tabs button {
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0 21px;
+    height: 56px;
+    font-size: 16px;
+    transition: 0.25s;
+}
+
+.tabs button:hover {
+    background-color: #ccc;
+}
+
+.tabs button:active {
+    background-color: #455a64;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    height: 252px;
+    align-content: space-around;
+    transition: all ease-in-out 0.3s;
+}
+
+.left-side, .right-side {
+    width: 410px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#tabTwo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
